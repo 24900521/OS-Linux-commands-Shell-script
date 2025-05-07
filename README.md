@@ -45,8 +45,8 @@ cat < file1
 cat < file2
 ## OUTPUT
 
+![image](https://github.com/user-attachments/assets/82156f89-ca0f-4033-883f-d3ccd8382e56)
 
-![WhatsApp Image 2025-04-07 at 09 39 41_97605f01](https://github.com/user-attachments/assets/161c6fa3-3d46-46f9-bc19-b052848b4b7e)
 
 
 # Comparing Files
