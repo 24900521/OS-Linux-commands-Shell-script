@@ -481,6 +481,7 @@ chmod 777 scriptest.sh
 ./scriptest.sh 1 2 3
 
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/70945ab9-d472-4e4c-a530-dc1c6183ffcc)
 
  
 ls file1
@@ -488,16 +489,20 @@ ls file1
 
 echo $?
 ## OUTPUT 
+
 ./one
 bash: ./one: Permission denied
  
 echo $?
 ## OUTPUT 
- 
+ ![image](https://github.com/user-attachments/assets/a7a2834a-0b14-4d07-a307-b4b3a721aaa1)
+
 abcd
  
 echo $?
  ## OUTPUT
+ ![image](https://github.com/user-attachments/assets/003a02ff-cbfe-497e-96a4-ab8efbd3f83b)
+
 
 
  
@@ -530,6 +535,7 @@ echo "$val1 is less than $val2"
 fi
 ```
 ##OUTPUT
+![image](https://github.com/user-attachments/assets/e8a27f2b-2ddc-42db-8db8-799b23f454ec)
 
 
 
@@ -537,6 +543,7 @@ chmod 755 strcomp.sh
  
 ./strcomp.sh 
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/81501a2f-3d93-42e0-ab03-d29ee7208099)
 
 
 # check file ownership
@@ -564,6 +571,7 @@ fi
  ```
 ./psswdperm.sh
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/1a884ea9-6c5f-4c80-9e84-1a6703563cb0)
 
 # check if with file location
 cat>ifnested.sh 
@@ -610,6 +618,7 @@ fi
 
 ./ifnested.sh 
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/d135bfe4-11e6-4013-9cf3-ee3781fad29f)
 
 
 
@@ -654,6 +663,7 @@ $ chmod 755 iftest.sh
  
 $ ./iftest.sh 
 ##OUTPUT
+![image](https://github.com/user-attachments/assets/cccae8f4-309b-4bd7-b251-854cacc62836)
 
 # check if a file
 cat > ifnested.sh 
@@ -703,6 +713,8 @@ $ chmod 755 ifnested.sh
  
 $ ./ifnested.sh 
 ##OUTPUT
+![image](https://github.com/user-attachments/assets/3855932b-4d02-4b57-9ed7-0da973340cc8)
+
 
 # looking for a possible value using elif
 cat elifcheck.sh 
@@ -731,6 +743,7 @@ $ chmod 755 elifcheck.sh
  
 $ ./elifcheck.sh 
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/99046698-81e7-4fcf-b180-245108d818bc)
 
 
 # testing compound comparisons
@@ -747,6 +760,8 @@ fi
 $ chmod 755 ifcompound.sh
 $ ./ifcompound.sh 
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/e5093c18-a60c-495b-9882-2a04c1094288)
+
 
 # using the case command
 cat >casecheck.sh 
@@ -858,6 +873,8 @@ done
 $ chmod 755 forin1.sh
 
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/b1e6876a-93e1-44f0-bc0a-d0eb82acf711)
+
 cat forinfile.sh 
 ```bash
 #!/bin/bash
@@ -879,6 +896,7 @@ Bhadrachalam
 Khammam
 
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/d0130d16-2ba7-438a-9b11-177e0de1e8ec)
 
 
 cat forctype.sh 
@@ -893,6 +911,8 @@ done
 $ chmod 755 forctype.sh
 $ ./forctype.sh 
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/d6eb6119-ab78-4f9d-8bb8-72485e421881)
+
 
 cat forctype1.sh 
 ```bash
@@ -1014,6 +1034,8 @@ fi
 ```
 ## OUTPUT
  ./funcex.sh 
+ ![image](https://github.com/user-attachments/assets/b35d7ec2-5052-4275-8ee3-8b0d9c6fb18c)
+
 
  
  ./funcex.sh 1 2
@@ -1031,7 +1053,8 @@ $ chmod 777 argshift.sh
 
 ## OUTPUT
 $ ./argshift.sh 1 2 3
- 
+ ![image](https://github.com/user-attachments/assets/d4a6805e-f46e-421a-b051-b0c57d446895)
+
  cat argshift1.sh
 ```bash
  #/bin/bash 
@@ -1047,6 +1070,9 @@ done
 ```
 $ chmod 777 argshift.sh
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/c44ddc62-dbf6-49ea-91c7-49e0516fcd3a)
+
+
 $ ./argshift.sh 1 2 3
  
 cat argshift.sh
@@ -1061,7 +1087,8 @@ set +x
 ```
 ## OUTPUT
  ./argshift.sh 1 2 3
- 
+ ![image](https://github.com/user-attachments/assets/0987634c-f4f0-4fa1-b71f-d1813f9706d7)
+
  
 cat > nc.awk
 ```bash
@@ -1092,6 +1119,8 @@ ubcdfghj
 ```
 awk -f nc.awk data.dat
 ## OUTPUT 
+![image](https://github.com/user-attachments/assets/49194004-c9d4-429e-8368-4e0fbe33ca5c)
+
  
 cat > palindrome.sh
 ```bash
@@ -1119,6 +1148,7 @@ else
 fi
 ```
 ## OUTPUT 
+![image](https://github.com/user-attachments/assets/29c239d4-0e0a-47cb-848c-d487180ff3f8)
 
 
 # RESULT:
